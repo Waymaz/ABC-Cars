@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+
+* {
+font-family: "Quicksand", sans-serif;	
+}
+body {
+	background-color: #121212;
+	color: #fff;
+}
+
+.table {
+	background-color: #1e1e1e;
+	color: #fff;
+}
+
+.table th,
+.table td {
+	border-color: #343a40;
+}
+
+.modal-content {
+	background-color: #2e2e2e;
+	color: #fff;
+}
+
+.modal-header {
+	border-bottom: none;
+}
+
+.btn {
+	border-radius: 25px;
+}
+
+.btn-primary {
+	background-color: #007bff;
+	border-color: #007bff;
+}
+
+.btn-primary:hover {
+	background-color: #0056b3;
+}
+
+.btn-danger {
+	background-color: #dc3545;
+	border-color: #dc3545;
+}
+
+.btn-danger:hover {
+	background-color: #c82333;
+}
+
+.modal-footer {
+	border-top: none;
+}
+
+.form-control {
+	background-color: #2e2e2e;
+	color: #fff;
+	border-color: #495057;
+}
+
+.form-control:focus {
+	border-color: #66afe9;
+}
+
+.modal-dialog {
+	background-color: transparent;
+}
+
+.modal-body {
+	padding: 2rem;
+}
+
+.sell-car-icon {
+	color: #fff !important;
+}

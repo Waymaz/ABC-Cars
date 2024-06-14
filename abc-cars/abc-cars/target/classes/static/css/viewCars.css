@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+
+* {
+font-family: "Quicksand", sans-serif;	
+}
+
+body {
+	background-color: #121212;
+	color: white;
+}
+
+/* Style for container */
+.container {
+	margin-top: 20px;
+}
+
+/* Style for the cards */
+.card {
+	background-color: #1e1e1e;
+	color: white;
+	border: none;
+}
+
+.card-body {
+	background-color: #2e2e2e;
+}
+
+/* Style for modal */
+.modal-content {
+	background-color: #2e2e2e;
+	color: white;
+}
+
+/* Button style */
+.btn-primary {
+	background-color: #343a40;
+	border-color: #343a40;
+}
+
+.btn-primary:hover {
+	background-color: #495057;
+}
+
+/* Style for links */
+a {
+	color: #66afe9;
+}
+
+a:hover {
+	color: #89c9f9;
+}
+
+/* Additional styles */
+.valid-feedback,
+.invalid-feedback {
+	color: #adb5bd;
+}
+
+/* Style for larger input fields */
+.modal input.form-control {
+	font-size: 1.2rem;
+	/* Increase the font size */
+	padding: 10px;
+	/* Increase the padding */
+}
+
+/* Custom class for left-aligned form */
+.form-left-aligned .form-label {
+	display: block;
+	/* Display the label as a block element */
+	text-align: left;
+	/* Align text to the left */
+	margin-right: 10px;
+	/* Adjust spacing between label and input */
+}
+
+/* Home screen container */
+.home-screen-container {
+	position: relative;
+	/* Allows absolute positioning of text */
+	margin-top: 20px;
+	/* Add margin to the top */
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+/* Home screen image */
+.home-screen-image {
+	width: 100%;
+	/* Full width */
+	height: auto;
+	/* Maintain aspect ratio */
+	display: block;
+	/* Ensure the image is block level */
+}
+
+/* Home screen text */
+.home-screen-text {
+	position: absolute;
+	/* Absolute position within the container */
+	top: 50%;
+	/* Move down to 50% of the container's height */
+	left: 50%;
+	/* Move right to 50% of the container's width */
+	transform: translate(-50%, -50%);
+	/* Center the text */
+	color: white;
+	/* Text color for visibility */
+	background-color: rgba(0, 0, 0, 0.5);
+	/* Background color with some transparency */
+	padding: 20px;
+	/* Padding for the text */
+	border-radius: 10px;
+	/* Rounded corners for the text box */
+}
